@@ -1,6 +1,6 @@
 # tiktok-auto-save
 ## Installation
- 
+ The project uses Python to help automatically save videos from the tiktok user-data file.
 ### 1. Clone the repository
  
 ```bash
