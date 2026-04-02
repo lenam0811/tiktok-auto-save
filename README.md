@@ -4,7 +4,7 @@
 ### 1. Clone the repository
  
 ```bash
-git clone https://github.com/your-username/tiktok-auto-save.git
+git clone https://github.com/lenam0811/tiktok-auto-save.git
 cd tiktok-auto-save
 ```
  
