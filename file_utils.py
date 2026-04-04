@@ -2,7 +2,6 @@ import json
 import logging
 
 def load_json_file(filepath: str) -> dict:
-    """Đọc và load file JSON."""
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -17,7 +16,7 @@ def load_json_file(filepath: str) -> dict:
 
 def extract_video_urls(data) -> list:
     """
-    Tự động dò tìm mục 'FavoriteVideoList' trong file JSON 
+    Tự động tìm mục 'FavoriteVideoList' trong file JSON 
     và trích xuất tất cả các đường link video.
     """
     urls = []
